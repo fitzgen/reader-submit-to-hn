@@ -68,7 +68,6 @@
         },
 
 	init: function () {
-            console.log("hello");
             // Wait for jQuery to load before beginning.
             if (typeof unsafeWindow.jQuery === "undefined") {
                 setTimeout(arguments.callee, 10);

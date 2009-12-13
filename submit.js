@@ -29,8 +29,8 @@
 	    
 	    hn.attach_links(without_links);
 	    
-	    // Wait 1 second to check for entries without links again.
-	    setTimeout(arguments.callee, 1000);
+	    // Wait a little bit before checking for entries without links again.
+	    setTimeout(arguments.callee, 200);
 	},
 	
 	attach_links: function(elements) {
